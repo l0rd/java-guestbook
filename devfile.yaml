@@ -7,8 +7,8 @@ components:
       image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
       memoryRequest: 2Gi
       memoryLimit: 4Gi
-      cpuRequest: '1'
-      cpuLimit: '1'
+      cpuRequest: 1
+      cpuLimit: 1
 
       endpoints:
         - name: java-guestbook-backend
